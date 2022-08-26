@@ -21,7 +21,7 @@ body{
 .cabecalho__titulo{
   font-size:32px;
   color:#5e2810;
-
+  margin-right:25%;
 }
 .cabecalho__nav > ul > li{
   display: inline-block;
