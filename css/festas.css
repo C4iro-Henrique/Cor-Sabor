@@ -1,0 +1,70 @@
+.festas{
+    color:brown;
+  height: auto;
+}
+
+.festa__container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.festa__area{
+    background-color: brown;
+    color:#F09090;
+    font-weight: bold;
+    width:400px;
+    height:400px;
+    margin: 2% 8%;
+    border-radius:10px;
+    display: inline-block;
+    padding: 0.5rem 2rem 2rem 2rem;
+}
+
+.festa__area__titulo{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.festa__area__imagem{
+    width:calc(400px - 4rem);
+    height:calc(275px - 4rem);
+    margin:0.5rem 0rem 0.5rem 0rem;
+}
+.festa__area__lista{
+    list-style-type:none;
+    font-size: 20px;
+    margin-left:0.5rem;
+}
+.festa__area__descricao{
+    text-align:center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.festa__area__lista{
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.festa__area__lista tr th{
+    padding: 0.5rem;
+    font-size: 24px;
+    text-align:center;
+    border: 1px white solid;
+}
+.festa__area__lista tr td{
+    padding: 0.5rem;
+    text-align:center;
+    border: 1px white solid;
+}
+
+.menor{
+    height: auto;
+
+
+}

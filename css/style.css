@@ -1,0 +1,45 @@
+body{
+  font-family:'Dancing Script', sans-serif;
+}
+
+.back{
+  background-image: url("../imagem/backgroundsobre.jpeg");
+  background-color: #f7a8e4;
+  background-size: 50px;
+}
+.cabecalho{
+  align-items:center;
+  background: #F09090;
+  display:flex;
+  height: 4rem;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.cabecalho__imagem{
+  height: 100%;
+}
+.cabecalho__titulo{
+  font-size:32px;
+  color:#5e2810;
+
+}
+.cabecalho__nav > ul > li{
+  display: inline-block;
+  padding-right:1rem;
+}
+.cabecalho__link{
+  color:#5e2810;
+  text-transform:uppercase;
+  font-weight: bolder;
+}
+.cabecalho__link:hover{
+  color: #90f0f0;
+}
+
+@media screen and (max-width:769px){
+  .cabecalho{
+    padding-right: 1rem;
+    padding-left: 0;
+  }
+
+}
