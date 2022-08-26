@@ -30,3 +30,8 @@
     cursor: pointer;
 
 }
+@media screen and (max-width:769px){
+.btPedido{
+padding:0.20rem 0rem;
+}
+}

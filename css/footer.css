@@ -1,0 +1,10 @@
+footer{
+    padding: 2rem;
+    height:10rem;
+    background:#F09090 ;
+    display:flex;
+}
+
+address{
+    font-size: 22px;
+}

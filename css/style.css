@@ -41,5 +41,12 @@ body{
     padding-right: 1rem;
     padding-left: 0;
   }
+  .cabecalho__titulo{
+    font-size: 0;
+  }
+  .cabecalho__titulo::after{
+    content:"Cor & Sabor";
+    font-size: 32px;
+  }
 
 }
