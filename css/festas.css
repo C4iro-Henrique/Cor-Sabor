@@ -7,16 +7,14 @@
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .festa__area{
     background-color: brown;
     color:#F09090;
-    font-weight: bold;
-    width:400px;
+    width:375px;
     height:400px;
-    margin: 2% 8%;
+    margin: 2% 6%;
     border-radius:10px;
     display: inline-block;
     padding: 0.5rem 2rem 2rem 2rem;
@@ -30,7 +28,7 @@
 }
 
 .festa__area__imagem{
-    width:calc(400px - 4rem);
+    width:calc(375px - 4rem);
     height:calc(275px - 4rem);
     margin:0.5rem 0rem 0.5rem 0rem;
 }
@@ -65,6 +63,4 @@
 
 .menor{
     height: auto;
-
-
 }
