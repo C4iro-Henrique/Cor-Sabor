@@ -1,5 +1,5 @@
 .comprar{
-    height: 30vh;
+    height: auto;
     color:#F09090;
     font-size:28px;
 }
@@ -29,6 +29,19 @@
     border-radius: 10px;
     cursor: pointer;
 
+}
+
+.comprar__remarcar,.comprar__pedidos{
+font-size: 24px;
+color: darkblue;
+text-align: center;
+margin-top: 1rem;
+text-decoration: underline ;
+}
+.comprar__remarcar__texto,.comprar__pedidos__texto{
+color:darkblue;
+text-align: center;
+padding-bottom: 0.5rem;
 }
 @media screen and (max-width:769px){
 .btPedido{
