@@ -5,7 +5,7 @@
 
 .sobre__container{
 background-color: brown;
-color:#F09090;
+color:white;
 margin: 1rem 2rem;
 border-radius: 10px;
 padding:0.5rem;
@@ -17,6 +17,7 @@ padding:0.5rem;
   padding-bottom: 3rem;
   text-align: center;
   font-weight:bold;
+  text-decoration: underline;
 }
 
 .sobre__paragrafo{

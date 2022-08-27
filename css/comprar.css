@@ -37,7 +37,6 @@ color: white;
 text-align: center;
 margin-top: 1rem;
 text-decoration: underline ;
-font-weight: bold;
 }
 .comprar__remarcar__texto,.comprar__pedidos__texto{
 color:white;
@@ -46,9 +45,9 @@ padding-bottom: 0.5rem;
 }
 .comprar__container{
     background-color: brown;
-    margin: 0.5rem 2rem;
+    margin: 0.5rem 2rem 0;
     border-radius: 10px;
-    padding: 0.25rem;
+    padding: 0.25rem 0.25rem 2rem;
 }
 @media screen and (max-width:769px){
 .btPedido{
