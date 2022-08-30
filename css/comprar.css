@@ -30,7 +30,14 @@
     padding: 0.5rem 3rem;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.1s;
 
+}
+
+.btPedido:active{
+    transform:translateY(5px);
+    border-bottom:1px solid #ed282b;
+    margin-top:4px;
 }
 
 .comprar__remarcar,.comprar__pedidos{
