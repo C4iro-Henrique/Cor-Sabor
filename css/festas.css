@@ -12,9 +12,9 @@
 .festa__area{
     background-color: brown;
     color:white;
-    width:375px;
-    height:400px;
-    margin: 2% 6%;
+    width:30%;
+    height:35%;
+    margin: 2% 10%;
     border-radius:10px;
     display: inline-block;
     padding: 0.5rem 2rem 2rem 2rem;
@@ -27,14 +27,13 @@
 }
 
 .festa__area__imagem{
-    width:calc(375px - 4rem);
+    width:calc(100%);
     height:calc(275px - 4rem);
     margin:0.5rem 0rem 0.5rem 0rem;
 }
 .festa__area__lista{
     list-style-type:none;
     font-size: 20px;
-    margin-left:0.5rem;
 }
 .festa__area__descricao{
     text-align:center;
@@ -47,22 +46,40 @@
     margin-left: auto;
     margin-right: auto;
 }
+.festa__area__tabela{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-.festa__area__lista tr th{
-    padding: 0.5rem;
+.festa__area__tabela tr th{
+    padding: 0.2rem;
     font-size: 24px;
     text-align:center;
     border: 1px white solid;
 }
-.festa__area__lista tr td{
-    padding: 0.5rem;
+.festa__area__tabela tr td{
+    padding: 0.2rem;
     text-align:center;
     border: 1px white solid;
 }
 .festa__area.crescer{
-    height: 500px;
+    height: auto;
 }
 
 .menor{
     height: auto;
+}
+
+@media screen and (max-width:769px){
+    .festas{
+        padding:2rem;
+    }
+    .festa__area{
+      width:100%;
+      margin: 2% 0;
+      
+    }
+
+
 }

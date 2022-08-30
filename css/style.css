@@ -8,6 +8,7 @@ body{
   background-size: 50px;
 }
 .cabecalho{
+  position: relative;
   align-items:center;
   background: #F09090;
   display:flex;
@@ -21,7 +22,10 @@ body{
 .cabecalho__titulo{
   font-size:32px;
   color:#5e2810;
-  margin-right:25%;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
 }
 .cabecalho__nav > ul > li{
   display: inline-block;

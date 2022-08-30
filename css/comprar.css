@@ -2,10 +2,11 @@
     height: auto;
     color:#F09090;
     font-size:28px;
+    padding:2rem;
 }
 
 .comprar__area{
-    width:40%;
+    width:80%;
     height: 150px;
     background-color: brown;
     margin-left: auto;
@@ -23,7 +24,8 @@
 }
 .btPedido{
     color: #ffffff;
-    background-color: #02260e;
+    background-color: #f06567;
+    border-bottom:5px solid #ed282b;
     width: 50%;
     padding: 0.5rem 3rem;
     border-radius: 10px;
@@ -45,14 +47,24 @@ padding-bottom: 0.5rem;
 }
 .comprar__container{
     background-color: brown;
-    margin: 0.5rem 2rem 0;
-    border-radius: 10px;
+    margin: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
     padding: 0.25rem 0.25rem 2rem;
+    width:80%;
+
 }
 @media screen and (max-width:769px){
 .btPedido{
 padding:0.20rem 0rem;
 }
-
+.comprar__container{
+    width:100%;
+    padding:none;
+}
+.comprar__area{
+    width:100%;
+}
 
 }

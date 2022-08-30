@@ -1,6 +1,7 @@
 .sobre{
   color: #5e2810;;
   height: auto;
+  padding:2rem;
 }
 
 .sobre__container{
@@ -24,5 +25,12 @@ padding:0.5rem;
   text-align: center;
   font-size: 24px;
   margin-bottom:2rem;
+}
+@media screen and (max-width:769px){
+  .sobre__container{
+    width:100%;
+    margin: 0;
+  }
+  
 }
 
