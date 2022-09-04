@@ -40,14 +40,14 @@
     margin-top:4px;
 }
 
-.comprar__remarcar,.comprar__pedidos{
+.comprar__remarcar,.comprar__pedidos,.comprar__responsabilidade{
 font-size: 24px;
 color: white;
 text-align: center;
 margin-top: 1rem;
 text-decoration: underline ;
 }
-.comprar__remarcar__texto,.comprar__pedidos__texto{
+.comprar__remarcar__texto,.comprar__pedidos__texto,.comprar__responsabilidade__texto{
 color:white;
 text-align: center;
 padding-bottom: 0.5rem;

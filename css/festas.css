@@ -21,7 +21,7 @@
 }
 
 .festa__area__titulo{
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
     text-decoration: underline;
 }
@@ -71,7 +71,10 @@
 .menor{
     height: auto;
 }
-
+.festa__area.solo{
+margin-left: 35%;
+margin-right: 35%;
+}
 @media screen and (max-width:769px){
     .festas{
         padding:0 2rem 2%
@@ -81,6 +84,10 @@
       margin: 2% 0;
       
     }
+    .festa__area.solo{
+        margin-left:0 ;
+        margin-right:0 ;
+        }
 
 
 }
