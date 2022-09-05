@@ -14,13 +14,13 @@ body{
   display:flex;
   height: 4rem;
   justify-content: space-between;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 .cabecalho__imagem{
   height: 100%;
 }
 .cabecalho__titulo{
-  font-size:32px;
+  font-size:28px;
   color:#5e2810;
   position:absolute;
   left:50%;

@@ -35,6 +35,11 @@
     list-style-type:none;
     font-size: 20px;
 }
+.salgados li:first-child{
+    text-align: center;
+    text-decoration: underline;
+
+}
 .festa__area__descricao{
     text-align:center;
     font-size: 26px;
