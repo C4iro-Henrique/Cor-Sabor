@@ -18,6 +18,7 @@
     border-radius:10px;
     display: inline-block;
     padding: 0.5rem 2rem 2rem 2rem;
+    position:relative;
 }
 
 .festa__area__titulo{
@@ -48,8 +49,6 @@
 
 .festa__area__lista{
     margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 .festa__area__tabela{
     width: 100%;
@@ -68,6 +67,46 @@
     padding: 0.1rem;
     text-align:center;
     border: 1px white solid;
+}
+.festa__area__container{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.festa__area__botao{
+    background-color: #f06567;
+    border-bottom:5px solid #ed282b;
+    border-radius: 10px;
+    padding:0 0.5rem;
+    cursor: pointer;
+    height: 35px;
+}
+.festa__area__botao:active{
+    transform:translateY(5px);
+    border-bottom:1px solid #ed282b;
+    margin-top:4px;
+}
+
+.festa__area__popout{
+    position: absolute;
+    height:0;
+    width:100%;
+    background-color: brown;
+    top:95%;
+    left:0;
+    z-index: 1;
+    border-radius:0 0 10px 10px;
+    overflow: hidden;
+    
+}
+
+.descer{
+    animation: descer 2s forwards; 
+}
+@keyframes descer {
+    0%{height:0% ;padding:0}
+    100%{height:calc(110%);padding: 0 2rem 2rem;border-bottom: white 2px solid;}
 }
 .festa__area.crescer{
     height: auto;

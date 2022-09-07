@@ -65,7 +65,8 @@
   cursor:pointer;
 }
 .active{
-  background:#F09090;
+  
+  background:#5e2810;;
 }
 
 @media screen and (max-width:796px){

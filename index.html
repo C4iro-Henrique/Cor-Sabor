@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title> Cor & Sabor</title>
+  <title>Cor & Sabor</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/slides.css">
@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/festas.css">
   <link rel="stylesheet" href="./css/comprar.css">
   <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/popout.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,59 +84,189 @@
     <section class="sobre">
       <div class="sobre__container">
         <h2 class="sobre__subt">Cor & Sabor</h2>
-        <p class="sobre__paragrafo">Festas prontas padrão, tortas, doces e salgados, venha e escolha qual a melhor festa pronta para o seu evento</p>
-        <p class="sobre__paragrafo">Temos o prazer de oferecer aos nossos clientes e amigos, festas prontas, tortas,doces
+        <p class="sobre__paragrafo">Festas prontas padrão, tortas, doces e salgados, venha e escolha qual a melhor festa
+          pronta para o seu evento</p>
+        <p class="sobre__paragrafo">Temos o prazer de oferecer aos nossos clientes e amigos, festas prontas,
+          tortas,doces
           e salgados, que atendam as necessidades dos seus eventos com produtos de qualidade e bom preço.
         </p>
-        <p class="sobre__paragrafo">Além das festas prontas, oferecemos aos nossos clientes um cardápio variado de doces e salgados
+        <p class="sobre__paragrafo">Além das festas prontas, oferecemos aos nossos clientes um cardápio variado de doces
+          e salgados
           "vendidos por unidades" para atender um número maior de pessoas nos seus eventos.</p>
-      
+
       </div>
-      </section>
+    </section>
     <section class="festas" Id="festasid">
       <h2 class="festas__subt"></h2>
       <section class="festa__container">
         <div class="festa__area">
           <h3 class="festa__area__titulo">Festa Pronta PP</h3>
           <img src="imagem/imagemkits/festa mini.jpeg" alt="festa mini" class="festa__area__imagem">
-          <ul class="festa__area__lista">
-            <li>Torta de 1Kg</li>
-            <li>50 salgados</li>
-            <li>30 doces</li>
-          </ul>
+          <div class="festa__area__container">
+            <ul class="festa__area__lista">
+              <li>Torta de 1Kg</li>
+              <li>50 salgados</li>
+              <li>30 doces</li>
+            </ul>
+            <button data-botao="pp" class="festa__area__botao">Opções</button>
+          </div>
+
+          <div data-pop="pp" class="festa__area__popout">
+            <h4 class="popout__titulos">Opções de Torta</h4>
+            <h5>Massa preta</h5>
+            <ul>
+              <li>Torta de chocolate</li>
+              <li>Torta de prestigio</li>
+            </ul>
+            <h5>Massa Branca</h5>
+            <ul>
+              <li>Torta de Maracujá</li>
+              <li>Torta de Amendoin</li>
+            </ul>
+            <h4 class="popout__titulos">Salgados</h4>
+            <ul>
+              <li>20 coxinhas</li>
+              <li>10 coquetes de bacalhau</li>
+              <li>10 empadas</li>
+              <li>10 salgadinhos de queijo</li>
+            </ul>
+            <h4 class="popout__titulos">Doces</h4>
+            <ul>
+              <li>10 Brigadeiros</li>
+              <li>10 Beijinhos ou 10 Docinhos de amendoin</li>
+              <li>10 Dois Amores(Bem casado) ou 10 Docinhos de maracujá</li>
+
+            </ul>
+
+          </div>
           <p class="festa__area__descricao">R$ 100,00</p>
         </div>
 
         <div class="festa__area">
           <h3 class="festa__area__titulo">Festa Pronta P</h3>
           <img src="imagem/imagemkits/festa mini.jpeg" alt="festa pequena" class="festa__area__imagem">
-          <ul class="festa__area__lista">
-            <li>Torta de 1,5Kg</li>
-            <li>80 salgados</li>
-            <li>40 doces</li>
-          </ul>
+          <div class="festa__area__container">
+            <ul class="festa__area__lista">
+              <li>Torta de 1,5Kg</li>
+              <li>80 salgados</li>
+              <li>40 doces</li>
+            </ul>
+            <button data-botao="p" class="festa__area__botao">Opções</button>
+          </div>
+
+          <div data-pop="p" class="festa__area__popout">
+            <h4 class="popout__titulos">Opções de Torta</h4>
+            <h5>Massa preta</h5>
+            <ul>
+              <li>Torta de chocolate</li>
+              <li>Torta de prestigio</li>
+            </ul>
+            <h5>Massa Branca</h5>
+            <ul>
+              <li>Torta de Maracujá</li>
+              <li>Torta de Amendoin</li>
+            </ul>
+            <h4 class="popout__titulos">Salgados</h4>
+            <ul>
+              <li>20 coxinhas</li>
+              <li>10 coquetes de bacalhau</li>
+              <li>10 empadas</li>
+              <li>10 salgadinhos de queijo</li>
+            </ul>
+            <h4 class="popout__titulos">Doces</h4>
+            <ul>
+              <li>10 Brigadeiros</li>
+              <li>10 Beijinhos ou 10 Docinhos de amendoin</li>
+              <li>10 Dois Amores(Bem casado) ou 10 Docinhos de maracujá</li>
+
+            </ul>
+
+          </div>
           <p class="festa__area__descricao">R$ 140,00</p>
         </div>
 
         <div class="festa__area">
           <h3 class="festa__area__titulo">Festa Pronta M</h3>
           <img src="imagem/imagemkits/festa mini.jpeg" alt="festa media" class="festa__area__imagem">
-          <ul class="festa__area__lista">
-            <li>Torta de 2Kg</li>
-            <li>100 salgados</li>
-            <li>70 doces</li>
-          </ul>
+          <div class="festa__area__container">
+            <ul class="festa__area__lista">
+              <li>Torta de 2Kg</li>
+              <li>100 salgados</li>
+              <li>70 doces</li>
+            </ul>
+            <button data-botao="m" class="festa__area__botao">Opções</button>
+          </div>
+
+          <div data-pop="m" class="festa__area__popout">
+            <h4 class="popout__titulos">Opções de Torta</h4>
+            <h5>Massa preta</h5>
+            <ul>
+              <li>Torta de chocolate</li>
+              <li>Torta de prestigio</li>
+            </ul>
+            <h5>Massa Branca</h5>
+            <ul>
+              <li>Torta de Maracujá</li>
+              <li>Torta de Amendoin</li>
+            </ul>
+            <h4 class="popout__titulos">Salgados</h4>
+            <ul>
+              <li>20 coxinhas</li>
+              <li>10 coquetes de bacalhau</li>
+              <li>10 empadas</li>
+              <li>10 salgadinhos de queijo</li>
+            </ul>
+            <h4 class="popout__titulos">Doces</h4>
+            <ul>
+              <li>10 Brigadeiros</li>
+              <li>10 Beijinhos ou 10 Docinhos de amendoin</li>
+              <li>10 Dois Amores(Bem casado) ou 10 Docinhos de maracujá</li>
+
+            </ul>
+
+          </div>
           <p class="festa__area__descricao">R$ 190,00</p>
         </div>
 
         <div class="festa__area">
           <h3 class="festa__area__titulo">Festa Pronta G</h3>
           <img src="imagem/imagemkits/festa mini.jpeg" alt="festa grande" class="festa__area__imagem">
-          <ul class="festa__area__lista">
-            <li>Torta de 2,5Kg</li>
-            <li>140 salgados</li>
-            <li>100 doces</li>
-          </ul>
+          <div class="festa__area__container">
+            <ul class="festa__area__lista">
+              <li>Torta de 2,5Kg</li>
+              <li>140 salgados</li>
+              <li>100 doces</li>
+            </ul>
+            <button data-botao="g" class="festa__area__botao">Opções</button>
+          </div>
+          <div data-pop="g" class="festa__area__popout">
+            <h4 class="popout__titulos">Opções de Torta</h4>
+            <h5>Massa preta</h5>
+            <ul>
+              <li>Torta de chocolate</li>
+              <li>Torta de prestigio</li>
+            </ul>
+            <h5>Massa Branca</h5>
+            <ul>
+              <li>Torta de Maracujá</li>
+              <li>Torta de Amendoin</li>
+            </ul>
+            <h4 class="popout__titulos">Salgados</h4>
+            <ul>
+              <li>20 coxinhas</li>
+              <li>10 coquetes de bacalhau</li>
+              <li>10 empadas</li>
+              <li>10 salgadinhos de queijo</li>
+            </ul>
+            <h4 class="popout__titulos">Doces</h4>
+            <ul>
+              <li>10 Brigadeiros</li>
+              <li>10 Beijinhos ou 10 Docinhos de amendoin</li>
+              <li>10 Dois Amores(Bem casado) ou 10 Docinhos de maracujá</li>
+
+            </ul>
+
+          </div>
           <p class="festa__area__descricao">R$ 250,00</p>
         </div>
         <div class="festa__area salgados">
@@ -260,46 +391,46 @@
         <div class="festa__area menor">
           <h3 class="festa__area__titulo">Tortas:</h3>
           <table class="festa__area__tabela">
-          <tr>
-            <th>Torta
-            </th>
-            <th>Preço do Quilo</th>
-          </tr>
-          <tr>
-            <td>Chocolate</td>
-            <td>R$:70,00</td>
-          </tr>
-          <tr>
-            <td>Chocolate Intenso</td>
-            <td>R$:70,00</td>
-          </tr>
-          <tr>
-            <td>Prestígio</td>
-            <td>R$:70,00</td>
-          </tr>
-          <tr>
-            <td>Maracujá</td>
-            <td>R$:70,00</td>
-          </tr>
-          <tr>
-            <td>Sonho de Valsa</td>
-            <td>R$:70,00</td>
-          </tr>
-          <tr>
-            <td>Ninho Trufado com Abacaxi</td>
-            <td>R$:70,00</td>
-          </tr>
-          <tr>
-            <td>Delícia de Coco</td>
-            <td>R$:70,00</td>
-          </tr>
-          <tr>
-            <td>Dois Amores</td>
-            <td>R$:70,00</td>
-          </tr>
+            <tr>
+              <th>Torta
+              </th>
+              <th>Preço do Quilo</th>
+            </tr>
+            <tr>
+              <td>Chocolate</td>
+              <td>R$:70,00</td>
+            </tr>
+            <tr>
+              <td>Chocolate Intenso</td>
+              <td>R$:70,00</td>
+            </tr>
+            <tr>
+              <td>Prestígio</td>
+              <td>R$:70,00</td>
+            </tr>
+            <tr>
+              <td>Maracujá</td>
+              <td>R$:70,00</td>
+            </tr>
+            <tr>
+              <td>Sonho de Valsa</td>
+              <td>R$:70,00</td>
+            </tr>
+            <tr>
+              <td>Ninho Trufado com Abacaxi</td>
+              <td>R$:70,00</td>
+            </tr>
+            <tr>
+              <td>Delícia de Coco</td>
+              <td>R$:70,00</td>
+            </tr>
+            <tr>
+              <td>Dois Amores</td>
+              <td>R$:70,00</td>
+            </tr>
 
 
-        </table>
+          </table>
         </div>
       </section>
     </section>
@@ -310,8 +441,8 @@
       </div>
       <div class="comprar__container">
         <h3 class="comprar__remarcar">
-        Remarcação de Dia ou horário
-        </h3 >
+          Remarcação de Dia ou horário
+        </h3>
         <p class="comprar__remarcar__texto">Na troca do dia ou horário da entrega da festa, o clientes
           deverá avisar com 24 horas de antecedência.
         </p>
@@ -320,8 +451,9 @@
           Cobramos 50% do valor da Festa no ato do pedido.
         </p>
         <h3 class="comprar__responsabilidade">Responsabilidade de Entrega</h3>
-        <p class="comprar__responsabilidade__texto">Não nos Responsabilizamos pela entrega do produto após o dia (horário de expediente) combinado para a entrega das encomendas,
-           também não devolveremos o valor pago antecipadamente no ato do pedido devido prejuízos.
+        <p class="comprar__responsabilidade__texto">Não nos Responsabilizamos pela entrega do produto após o dia
+          (horário de expediente) combinado para a entrega das encomendas,
+          também não devolveremos o valor pago antecipadamente no ato do pedido devido prejuízos.
         </p>
       </div>
 
@@ -330,32 +462,37 @@
 
   <footer class="footer">
     <section class="footer__container">
-      <img class="footer__imagem"src="./imagem/LogoHelo2_0.png"alt="">
-      <address> Rua Embaixador Cristiano Machado,857<br/>Vila Popular-Olinda,Pernambuco<br/>Cep:53230-070
-      <br/>Telefone:81999651749</address>
+      <img class="footer__imagem" src="./imagem/LogoHelo2_0.png" alt="">
+      <address> Rua Embaixador Cristiano Machado,857<br />Vila Popular-Olinda,Pernambuco<br />Cep:53230-070
+        <br />Telefone:81999651749
+      </address>
       <table class="footer__funcionamento">
-      <tr>
-        <th colspan="2">Funcionamento</th>
-      </tr>
-      <tr>
-        <td>Das Terças aos Sábados</td>
-        <td>08hs-17hs</td>
-      </tr>
-      <tr>
-        <td>Nos Domingos</td>
-        <td>08hs-12hs</td>
-      </tr>
+        <tr>
+          <th colspan="2">Funcionamento</th>
+        </tr>
+        <tr>
+          <td>Das Terças aos Sábados</td>
+          <td>08hs-17hs</td>
+        </tr>
+        <tr>
+          <td>Nos Domingos</td>
+          <td>08hs-12hs</td>
+        </tr>
       </table>
     </section>
     <div class="footer__icones">
-      
-      <a href="https://wa.me/5581999651749"><img class="footer__imagens"src="imagem/icones/whatsapp_icon.jpg" alt="link whatsapp"></a>
-      <a href="fb://facewebmodal/f?href=https://www.facebook.com/Cor-Sabor-Festas-103104369210927"><img class="footer__imagens"src="imagem/icones/facebook_icon.jpg" alt="link facebook"> </a>
-      <a href="http://instagram.com/_u/coresaborof/"><img class="footer__imagens"src="imagem/icones/instagram_icon.png" alt="link instagram"></a> 
-      
+
+      <a href="https://wa.me/5581999651749"><img class="footer__imagens" src="imagem/icones/whatsapp_icon.jpg"
+          alt="link whatsapp"></a>
+      <a href="fb://facewebmodal/f?href=https://www.facebook.com/Cor-Sabor-Festas-103104369210927"><img
+          class="footer__imagens" src="imagem/icones/facebook_icon.jpg" alt="link facebook"> </a>
+      <a href="http://instagram.com/_u/coresaborof/"><img class="footer__imagens" src="imagem/icones/instagram_icon.png"
+          alt="link instagram"></a>
+
     </div>
   </footer>
   <script src=./js/carrossel.js></script>
+  <script src="./js/popout.js"></script>
 
 </body>
 

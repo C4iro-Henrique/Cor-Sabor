@@ -1,0 +1,11 @@
+.popout__titulos{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 22px;
+    margin:0.5rem;
+}
+.festa__area__popout h5{
+    margin-bottom: 0.1rem;
+    text-align: center;
+    text-decoration: underline;
+}
